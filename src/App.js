@@ -1,9 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <h1>Famevest</h1>
+    <>
+ 
+    <Navbar/>
+    <Sidebar/>
+    </>
   );
 }
 
