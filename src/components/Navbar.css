@@ -41,22 +41,26 @@ body {
 
 .nav>.nav-links>a {
     display: inline-block;
-    padding: 1rem 3rem 0rem 0rem;
-    /* padding: 13px 30px 13px 10px; */
+    padding: 1.3rem 3rem 0rem 0rem;
     text-decoration: none;
     color: #fff;
     background: #212121;
     height: 80px;
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+.nav>.nav-links>button {
+    margin-right: 30px;
 }
 
 .loginbutton {
-    width: 118px;
+    width: 130px;
     height: 60px;
     background: #42B72A;
     color: white;
     font-size: 2.2rem;
     border-radius: 7px;
+    font-weight: bold;
 }
 
 .nav>#nav-check {
