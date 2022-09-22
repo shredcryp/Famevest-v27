@@ -30,8 +30,13 @@ function Wallet() {
         <div className="wallet-rightside">
 
             <div className="walletpart">
-                
+                <h3>Wallet address</h3>
+                <div class="walletaddressline">
+                    <h3>0xa7a3A2eE2E20D45a08d0C97c9F63805008086312</h3>
+                </div>
             </div>
+
+            <br></br>
 
             <div className="balancehistory">
                 <table>
