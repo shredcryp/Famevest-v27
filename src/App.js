@@ -7,8 +7,11 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div style={{display: 'flex'}}>
     <Sidebar/>
     <Wallet/>
+    </div>
+   
     </>
   );
 }
