@@ -13,14 +13,6 @@ function App() {
     <Sidebar/>
     <Wallet/>
     </div>
-   
-    
-    <Navbar/>
-    <div style={{display:"flex"}}>
-    <Sidebar/>
-    <HomeCard/>
-    </div>
-    <Profile/>
     </>
   );
 }
