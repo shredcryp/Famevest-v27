@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Wallet from './components/Wallet';
+import HomeCard from "./components/HomeCard";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -12,6 +14,13 @@ function App() {
     <Wallet/>
     </div>
    
+    
+    <Navbar/>
+    <div style={{display:"flex"}}>
+    <Sidebar/>
+    <HomeCard/>
+    </div>
+    <Profile/>
     </>
   );
 }

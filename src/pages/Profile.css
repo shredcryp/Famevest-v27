@@ -1,0 +1,37 @@
+.twitterHandle > img
+{
+    width: 800px;
+}
+
+.mediaLinks
+{
+    display: flex;
+    justify-content: end;
+    font-size: x-large;
+    margin-top: 25px;
+   
+    border-radius: 1rem;
+    color: #212121;
+  
+}
+.profileInfo
+{
+    width: 421px;
+    display: block;
+    margin: 10px;
+}
+
+.info{
+    margin-top: 12px;
+    font-size: medium;
+}
+
+.profileInstruction
+{
+    max-width: 312px;
+}
+
+.ProfileText
+{
+    display: flex;
+}

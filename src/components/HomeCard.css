@@ -1,0 +1,68 @@
+.card-body
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #212121;
+    border-radius: 1rem;
+   
+}
+
+.category
+{
+    font-size: medium;
+    color: #AFAFAF;
+}
+.card
+{
+    margin-left: 260px;
+   
+}
+.cardCoin
+{
+    display:block;
+    font-size: large;
+    align-items: baseline;
+    color: white;
+}
+
+
+.cardProfile > img{
+    width: 100px;
+    font-size: large;
+    color: green;
+}
+.cardName
+{
+    font-size : large;
+    color: white;
+}
+
+.cardChange
+{
+    font-size : large;
+    color: white;
+}
+
+.cardMarketCap
+{
+    font-size : large;
+    color: white;
+}
+
+.cardPrice
+{
+    font-size : large;
+    color: white;
+}
+
+
+.cardGraph >img
+{
+    width: 100px;
+    font-size : large;
+    color: white;
+}
+
+
+
