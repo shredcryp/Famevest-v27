@@ -15,7 +15,7 @@ function App() {
     <Navbar/>
     <div style={{display: 'flex'}}>
     <Sidebar/>
-<<<<<<< HEAD
+
     <Router>
     <Routes>
         <Route exact path="/" element={<HomeCard/>} />
@@ -25,20 +25,12 @@ function App() {
        
       </Routes>
     </Router>
-   
-    </div>
-    {/* <Navbar/>
-    <div style={{display:"flex"}}>
-    <Sidebar/>
-    <HomeCard/>
-    </div>
-    <Profile/> */}
-=======
-    <Wallet/>
-    </div>
->>>>>>> 9097fd75aaa77667a3a6271763a77388cee7e561
-    </>
+   </>
+
+
+
   );
 }
+
 
 export default App;
