@@ -7,6 +7,7 @@ import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
 import MailRoundedIcon from '@mui/icons-material/MailRounded';
 import CreateRoundedIcon from '@mui/icons-material/CreateRounded';
 import UnfoldMoreRoundedIcon from '@mui/icons-material/UnfoldMoreRounded';
+
 function Sidebar() {
   return (
  
@@ -21,29 +22,29 @@ function Sidebar() {
             <ul className="list-unstyled components">
          
                 <li className="active">
-                    <div style={{display:"flex", alignItems:"center", fontSize:"large"}}> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white"}}><PersonIcon/>   Profile</a></div>
+                    <div style={{display:"flex", alignItems:"center", fontSize:"large"}}> <a href="/profile" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white"}}><PersonIcon/>   Profile</a></div>
                  
                     
                 </li>
                 <li>
-                    <div><a href="#" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><AccountBalanceWalletRoundedIcon/>   Wallet</a></div>
+                    <div><a  href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><AccountBalanceWalletRoundedIcon/> Wallet </a></div>
 
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><EqualizerRoundedIcon/>  Portfolio</a>
+                    <a href="/portfolio" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><EqualizerRoundedIcon/>{'  '}  Portfolio</a>
                    
                 </li>
                 <li>
-                    <a href="#" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}> <BookmarkRoundedIcon/>   Watchlist</a>
+                    <a href="/watchlist" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}> <BookmarkRoundedIcon/> {'  '}  Watchlist</a>
                 </li>
                 <li>
-                    <a href="#" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><MailRoundedIcon/>  Inbox</a>
+                    <a href="/inbox" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><MailRoundedIcon/>{'  '}  Inbox</a>
                 </li>
                 <li>
-                    <a href="#" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><CreateRoundedIcon/>   Notes</a>
+                    <a href="/notes" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><CreateRoundedIcon/>  {'  '} Notes</a>
                 </li>
                 <li>
-                    <a href="#" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><UnfoldMoreRoundedIcon/>   More</a>
+                    <a href="/more" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><UnfoldMoreRoundedIcon/>   More</a>
                 </li>
             </ul>
         </nav>

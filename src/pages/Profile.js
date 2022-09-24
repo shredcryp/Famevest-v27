@@ -12,10 +12,10 @@ import "./Profile.css"
 function Profile() {
   return (
     <div>
-        <Navbar/>
+     
         <div className='ProfileBody' style={{display:"flex", justifyContent:'space-between'}}>
             <div  style={{display:"flex"}}>
-            <Sidebar/>
+      
         <div className='twitterHandle'>
             <img src="https://th.bing.com/th/id/OIP.kTz0H8zeR9NQ-6sBGxeVmgHaDH?pid=ImgDet&rs=1"></img>
             <div className='mediaLinks'>
@@ -42,7 +42,7 @@ function Profile() {
        
             </div>
 
-          
+
         </div>
       
       
