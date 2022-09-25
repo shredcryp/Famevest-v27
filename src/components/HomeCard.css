@@ -1,4 +1,9 @@
+.Main
+{
+    display: block;
+}
 .card-body
+
 {
     display: flex;
     justify-content: space-around;
@@ -8,8 +13,8 @@
     margin-top: 18px;
     position: relative;
     left: -222px;
-    width: 1270px;
-   
+    width: 266%; 
+  
 }
 
 .category
@@ -75,6 +80,41 @@
     font-size : large;
     color: white;
 }
+
+@media (max-width: 1435px) {
+    .cardGraph{
+      
+     display: none;
+    }
+    .card-body
+    {
+        width: 300%; 
+    }
+
+}
+
+@media (max-width: 1310px) {
+    .cardMarketCap {
+        display: none;
+    }
+    .card-body{
+        width: 340%;
+    }
+
+
+}
+
+@media (max-width: 1233px) {
+    .cardChange{
+        display: none;
+    }
+    .card-body{
+        width: 380%;
+    }
+
+
+}
+
 
 
 

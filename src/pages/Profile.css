@@ -6,10 +6,10 @@
 .mediaLinks
 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: x-large;
     margin-top: 25px;
-   
+
     border-radius: 1rem;
     color: #212121;
   

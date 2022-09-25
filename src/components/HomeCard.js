@@ -1,8 +1,12 @@
 import React from 'react'
 import "./HomeCard.css"
 import VerifiedIcon from '@mui/icons-material/Verified';
+import HomecardTitles from './HomecardTitle';
 function HomeCard() {
-  return  (
+  return  ( <>
+  
+    <div className=' Main'>
+    <HomecardTitles/>
     <div className='HomeCard'>
       <div className="card" >
      <div className="card-body">
@@ -11,8 +15,9 @@ function HomeCard() {
       <img src="https://th.bing.com/th/id/OIP.m1J7NA55Yagq9dpzEgGUPQHaD4?pid=ImgDet&rs=1"></img>
       </div>
       
-
+    
       {/* Name of the tocken */}
+
     <div className='cardCoin'> $ElonMusk <VerifiedIcon/>
     <div className='category'>Entrepenure</div>
     </div>
@@ -49,7 +54,10 @@ function HomeCard() {
     </div>
      
 
+    </div>
     
+ 
+     </>
   )
 }
 
