@@ -5,6 +5,10 @@
     align-items: center;
     background: #212121;
     border-radius: 1rem;
+    margin-top: 18px;
+    position: relative;
+    left: -222px;
+    width: 1270px;
    
 }
 
@@ -12,10 +16,13 @@
 {
     font-size: medium;
     color: #AFAFAF;
+    background-color: #212121;
 }
 .card
 {
     margin-left: 260px;
+    background-color:black;
+    margin-top: 12px;
    
 }
 .cardCoin
@@ -24,6 +31,7 @@
     font-size: large;
     align-items: baseline;
     color: white;
+    background-color: #212121;
 }
 
 
@@ -36,24 +44,28 @@
 {
     font-size : large;
     color: white;
+    background-color: #212121;
 }
 
 .cardChange
 {
     font-size : large;
     color: white;
+    background-color: #212121;
 }
 
 .cardMarketCap
 {
     font-size : large;
     color: white;
+    background-color: #212121;
 }
 
 .cardPrice
 {
     font-size : large;
     color: white;
+    background-color: #212121;
 }
 
 
