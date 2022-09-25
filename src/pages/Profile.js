@@ -40,8 +40,8 @@ function Profile() {
                 <h3>71,479.172 Fcoins</h3>
               </div>
               <div className="currentprice">
-                <h2>Market cap</h2>
-                <h3>$3589.72</h3>
+                <h2>Current price</h2>
+                <h3>$0</h3>
               </div>
             </div>
             <div className="graphinputs"></div>
@@ -49,20 +49,38 @@ function Profile() {
               <img src={maingraph} />
             </div>
             <div className="buysell">
-                <div className="arrowdown">
+                <div className="arrowfirst">
                   <img src={arrow} />
                 </div>
               <div className="buyinput">
                 <div className="fcoinamount">
-                  <input type="text" placeholder="Enter Fcoin amount..."/>
+                  <input type="text" placeholder="Enter Fcoins"/>
                 </div>
-                <div className="return">
-                  <input type="text" placeholder="$elonmusk in return..."/>
+                <div className="socialcurrencyreturn">
+                  <input type="text" placeholder="$elonmusk coins"/>
                 </div>
                 <div className="buybalance">
                   <div className="lowerbuyinput">
                     <button>Buy</button>
-                    <h3>Balance: 22734.52</h3>
+                    <h3>Fcoins: 22734.52</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div className="arrowsecond">
+                  <img src={arrow} />
+                </div>
+              <div className="sellinput">
+                <div className="socialcurrencyamount">
+                  <input type="text" placeholder="$currency"/>
+                </div>
+                <div className="fcoinreturn">
+                  <input type="text" placeholder="Fcoins in return"/>
+                </div>
+                <div className="sellbalance">
+                  <div className="lowersellinput">
+                    <button>Buy</button>
+                    <h3>$Balance: 22734.52</h3>
                   </div>
                 </div>
               </div>
