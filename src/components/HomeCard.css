@@ -17,67 +17,59 @@
   
 }
 
-.category
-{
+.category {
     font-size: medium;
     color: #AFAFAF;
     background-color: #212121;
 }
-.card
-{
+
+.card {
     margin-left: 260px;
-    background-color:black;
+    background-color: black;
     margin-top: 12px;
-   
 }
-.cardCoin
-{
-    display:block;
+
+.cardCoin {
+    display: block;
     font-size: large;
     align-items: baseline;
     color: white;
     background-color: #212121;
 }
 
-
-.cardProfile > img{
+.cardProfile>img {
     width: 100px;
     font-size: large;
     color: green;
 }
-.cardName
-{
-    font-size : large;
+
+.cardName {
+    font-size: large;
     color: white;
     background-color: #212121;
 }
 
-.cardChange
-{
-    font-size : large;
+.cardChange {
+    font-size: large;
     color: white;
     background-color: #212121;
 }
 
-.cardMarketCap
-{
-    font-size : large;
+.cardMarketCap {
+    font-size: large;
     color: white;
     background-color: #212121;
 }
 
-.cardPrice
-{
-    font-size : large;
+.cardPrice {
+    font-size: large;
     color: white;
     background-color: #212121;
 }
 
-
-.cardGraph >img
-{
+.cardGraph>img {
     width: 100px;
-    font-size : large;
+    font-size: large;
     color: white;
 }
 
