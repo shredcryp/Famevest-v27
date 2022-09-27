@@ -27,7 +27,7 @@
 }
 
 .circulation {
-    padding: 20px 0px 0px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .circulation h2 {
@@ -41,7 +41,7 @@
 }
 
 .marketcap {
-    padding: 20px 0px 0px 90px;
+    padding: 20px 20px 20px 90px;
 }
 
 .marketcap h2 {
@@ -223,4 +223,13 @@
 
 .socialcurrencyamount input {
     font-size: 1.5rem;
+}
+
+@media (max-width: 1025px) {
+    .maingraph {
+        display: none;
+    }
+    .marketinfo {
+        margin-bottom: 20px;
+    }
 }

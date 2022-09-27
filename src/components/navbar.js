@@ -8,7 +8,9 @@ function Navbar() {
   <input type="checkbox" id="nav-check" />
   <div className="nav-header">
     <div className="nav-title">
+      <a href="/">
       Famevest
+      </a>
     </div>
   </div>
   <div className="nav-btn">
