@@ -16,8 +16,6 @@ p {
     color: #999;
 }
 
-
-
 .navbar {
     padding: 15px 10px;
     background: #fff;
@@ -69,7 +67,6 @@ p {
 
 #sidebar ul.components {
     padding: 20px 0;
-
 }
 
 #sidebar ul p {
@@ -79,7 +76,7 @@ p {
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 1.5rem;
     display: block;
 }
 

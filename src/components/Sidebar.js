@@ -22,12 +22,12 @@ function Sidebar() {
             <ul className="list-unstyled components">
          
                 <li className="active">
-                    <div style={{display:"flex", alignItems:"center", fontSize:"large"}}> <a href="/profile" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white"}}><PersonIcon/>   Profile</a></div>
+                    <a href="/userprofile" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><PersonIcon/> Profile</a>
                  
                     
                 </li>
                 <li>
-                    <div><a  href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><AccountBalanceWalletRoundedIcon/> Wallet </a></div>
+                    <a href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><AccountBalanceWalletRoundedIcon/> Wallet </a>
 
                 </li>
                 <li>

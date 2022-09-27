@@ -1,6 +1,4 @@
-
-.title-body
-{
+.title-body {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,22 +6,17 @@
     border-radius: 1rem;
     margin-top: 18px;
     position: relative;
-
-    width: 221%; 
-  
+    width: 221%;
 }
 
-
-.title
-{
+.title {
     margin-left: 260px;
-    background-color:black;
+    background-color: black;
     margin-top: 12px;
-   
 }
-.titleCoin
-{
-    display:block;
+
+.titleCoin {
+    display: block;
     font-size: large;
     align-items: baseline;
     color: white;
@@ -32,13 +25,8 @@
     left: 3%;
 }
 
-
-
-
-
-.titleChange
-{
-    font-size : large;
+.titleChange {
+    font-size: large;
     color: white;
     background-color: black;
     position: relative;
@@ -46,65 +34,51 @@
     left: 4%;
 }
 
-.titleMarketCap
-{
-    font-size : large;
+.titleMarketCap {
+    font-size: large;
     color: white;
     background-color: black;
 }
 
-.titlePrice
-{
-    font-size : large;
+.titlePrice {
+    font-size: large;
     color: white;
     background-color: black;
 }
 
-.titlegraph
-{
-    font-size : large;
+.titlegraph {
+    font-size: large;
     color: white;
     background-color: black;
 }
-
 
 @media (max-width: 1435px) {
     .titlegraph {
         display: none;
     }
-    .title-body{
+    .title-body {
         width: 250%;
     }
-
-
 }
 
 @media (max-width: 1310px) {
     .titleMarketCap {
         display: none;
     }
-    .title-body{
+    .title-body {
         width: 280%;
     }
-
-
 }
 
 @media (max-width: 1233px) {
     .titleChange {
         display: none;
     }
-    .title-body{
+    .title-body {
         width: 260%;
     }
-
-    .titlePrice{
+    .titlePrice {
         position: relative;
         right: 6%;
     }
-
-
 }
-
-
-
