@@ -12,7 +12,7 @@
     position: relative;
     left: -222px;
     width: 266%;
-    height: 100px;
+    height: 110px;
 }
 
 .category {
@@ -39,6 +39,10 @@
     width: 100px;
     font-size: large;
     color: green;
+}
+
+.cardProfile {
+    margin-top: 10px;
 }
 
 .cardName {

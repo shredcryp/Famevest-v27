@@ -3,6 +3,7 @@ import "./HomeCard.css"
 import VerifiedIcon from '@mui/icons-material/Verified';
 import smallgraph from '../images/smallgraph.png';
 import HomecardTitles from './HomecardTitle';
+import elonprofile from '../images/elonprofile.png';
 function HomeCard() {
   return  ( <>
   
@@ -13,7 +14,7 @@ function HomeCard() {
      <div className="card-body">
       
       <div className='cardProfile'>
-      <img src="https://th.bing.com/th/id/OIP.m1J7NA55Yagq9dpzEgGUPQHaD4?pid=ImgDet&rs=1"></img>
+      <img src={elonprofile} alt="" />
       </div>
       
     
