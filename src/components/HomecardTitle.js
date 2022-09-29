@@ -3,51 +3,44 @@ import "./HomecardTitle.css"
 import VerifiedIcon from '@mui/icons-material/Verified';
 
 function HomecardTitle() {
-  return  ( <>
-   
+  return (<>
+
     <div className='titleCard'>
       <div className="title" >
-     <div className="title-body">
-      
-  
-    
-      {/* Name of the tocken */}
+        <div className="title-body">
 
-    <div className='titleCoin'> Name </div>
-
-
-         {/* --------------*/}
-
-         
-         {/* 24 hr change*/}
-         <div className='titleChange'>
-          24 change
-         </div>
-
-         {/*Market Cap*/}
-         <div className='titleMarketCap'>
-          Market Cap
-         </div>
-
-         {/*7-d graph*/}
-         <div className='titlegraph'> 
-          7d graph
+        <div className='empty'>
+             
           </div>
 
+          <div className='titleCoin'>
+            Name
+          </div>
 
-          {/*Price*/}
+          <div className='titleChange'>
+            24 change
+          </div>
+
+          <div className='titleMarketCap'>
+            Market Cap
+          </div>
+
+          <div className='titlegraph'>
+            7d graph
+          </div>
+
           <div className='titlePrice'>
             Price
           </div>
 
-          
-    </div>
-    </div>
-    </div>
-     
 
- 
-     </>
+        </div>
+      </div>
+    </div>
+
+
+
+  </>
   )
 }
 

@@ -6,11 +6,11 @@
     border-radius: 1rem;
     margin-top: 18px;
     position: relative;
-    width: 221%;
+    width: 95%;
 }
 
 .title {
-    margin-left: 260px;
+    margin-left: 5%;
     background-color: black;
     margin-top: 12px;
 }
@@ -52,30 +52,21 @@
     background-color: black;
 }
 
-@media (max-width: 1435px) {
+@media (max-width: 1525px) {
     .titlegraph {
         display: none;
     }
-    .title-body {
-        width: 250%;
-    }
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1421px) {
     .titleMarketCap {
         display: none;
     }
-    .title-body {
-        width: 280%;
-    }
 }
 
-@media (max-width: 1233px) {
+@media (max-width: 1317px) {
     .titleChange {
         display: none;
-    }
-    .title-body {
-        width: 260%;
     }
     .titlePrice {
         position: relative;

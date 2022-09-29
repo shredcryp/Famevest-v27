@@ -21,30 +21,30 @@ function Sidebar() {
 
             <ul className="list-unstyled components">
          
-                <li className="active">
-                    <a href="/userprofile" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><PersonIcon/> Profile</a>
+                <li >
+                    <a href="/userprofile" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><PersonIcon/> Profile</a>
                  
                     
                 </li>
                 <li>
-                    <a href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><AccountBalanceWalletRoundedIcon/> Wallet </a>
+                    <a href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><AccountBalanceWalletRoundedIcon/> Wallet </a>
 
                 </li>
                 <li>
-                    <a href="/portfolio" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><EqualizerRoundedIcon/>{'  '}  Portfolio</a>
+                    <a href="/portfolio" data-toggle="collapse" aria-expanded="false" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><EqualizerRoundedIcon/>{'  '}  Portfolio</a>
                    
                 </li>
                 <li>
-                    <a href="/watchlist" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}> <BookmarkRoundedIcon/> {'  '}  Watchlist</a>
+                    <a href="/watchlist" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}> <BookmarkRoundedIcon/> {'  '}  Watchlist</a>
                 </li>
                 <li>
-                    <a href="/inbox" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><MailRoundedIcon/>{'  '}  Inbox</a>
+                    <a href="/inbox" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><MailRoundedIcon/>{'  '}  Inbox</a>
                 </li>
                 <li>
-                    <a href="/notes" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><CreateRoundedIcon/>  {'  '} Notes</a>
+                    <a href="/notes" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><CreateRoundedIcon/>  {'  '} Notes</a>
                 </li>
                 <li>
-                    <a href="/more" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"large"}}><UnfoldMoreRoundedIcon/>   More</a>
+                    <a href="/more" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><UnfoldMoreRoundedIcon/>   More</a>
                 </li>
             </ul>
         </nav>
