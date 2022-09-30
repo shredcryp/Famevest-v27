@@ -1,9 +1,8 @@
-.portfolio-chart {
-    width: 400px;
-    height: 100px;
-}
-
 .totalinvestedbox {
-    width: 500px;
-    height: 100px;
+    width: 30%;
+    height: 10%;
+    background: #212121;
+    margin-left: 100px;
+    padding: 40px;
+    border-radius: 13px;
 }
