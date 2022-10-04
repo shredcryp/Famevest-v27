@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeCard from './HomeCard'
-
+import PortfolioCard from './PortfolioCard'
 
 
 function Portfolio() {
@@ -28,11 +28,10 @@ timestamps go to Wallet</a>
 <div>
 
 </div>
-
+<PortfolioCard/>
        </div>
   
 
-        
 
         </>
     )
