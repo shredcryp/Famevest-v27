@@ -13,7 +13,6 @@ function App() {
     <Navbar/>
     <div style={{display: 'flex'}}>
     <Sidebar/>
-
     <Router>
       <Routes>
           <Route exact path="/" element={<HomeCard/>} />
