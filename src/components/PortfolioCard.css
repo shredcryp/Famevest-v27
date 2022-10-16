@@ -1,6 +1,10 @@
+.both {
+    width: 100%;
+}
+
 .Main {
     display: block;
-    width: 150%;
+    width: 100%;
     float: left;
     height: 60%;
     margin-bottom: 5%;
@@ -11,7 +15,6 @@ a {
 }
 
 .card-body {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     background: #212121;

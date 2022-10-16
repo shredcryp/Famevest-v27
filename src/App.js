@@ -6,6 +6,7 @@ import HomeCard from "./components/HomeCard";
 import ReactDOM from 'react-dom';
 import Profile from "./pages/Profile";
 import Portfolio from "./components/Portfolio";
+import Myprofile from "./components/Myprofile";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 function App() {
   return ( 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/wallet" element={<Wallet/>} />
           <Route path="/profile" element={<Profile/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/myprofile" element={<Myprofile/>} />
         </Routes>
     </Router>
     </div>

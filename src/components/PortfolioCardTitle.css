@@ -1,5 +1,4 @@
 .title-body {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     background: black;
@@ -10,7 +9,7 @@
 }
 
 .title {
-    margin-left: 5%;
+    margin-left: 2%;
     background-color: black;
     margin-top: 12px;
 }
@@ -22,7 +21,6 @@
     color: white;
     background-color: black;
     position: relative;
-    left: 3%;
 }
 
 .titleChange {
@@ -30,17 +28,13 @@
     color: white;
     background-color: black;
     position: relative;
-    /* margin-left: 2%; */
-    left: 4%;
 }
 
-.portfolioPrice{
+.portfolioPrice {
     font-size: large;
     color: white;
     background-color: black;
     position: relative;
-    left: 8%;
-
 }
 
 .portfolioProfitLoss {
@@ -48,8 +42,8 @@
     color: white;
     background-color: black;
 }
-.HoldingsTitle
-{
+
+.HoldingsTitle {
     font-size: large;
     color: white;
     background-color: black;

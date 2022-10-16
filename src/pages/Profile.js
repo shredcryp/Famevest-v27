@@ -49,9 +49,7 @@ function Profile() {
             <img src={maingraph} />
           </div>
           <div className="buysell">
-            <div className="arrowfirst">
-              <img src={arrow} />
-            </div>
+
             <div className="buyinput">
               <div className="fcoinamount">
                 <input type="text" placeholder="Enter Fcoins" />
@@ -67,19 +65,17 @@ function Profile() {
               </div>
             </div>
 
-            <div className="arrowsecond">
-              <img src={arrow} />
-            </div>
+
             <div className="sellinput">
               <div className="socialcurrencyamount">
-                <input type="text" placeholder="$currency" />
+                <input type="text" placeholder="Enter $currency" />
               </div>
               <div className="fcoinreturn">
                 <input type="text" placeholder="Fcoins in return" />
               </div>
               <div className="sellbalance">
                 <div className="lowersellinput">
-                  <button>Buy</button>
+                  <button>Sell</button>
                   <h3>$Balance: 22734.52</h3>
                 </div>
               </div>

@@ -1,0 +1,46 @@
+.bargraph img {
+    width: 100%;
+    padding: 40px;
+}
+
+.bargraph h3 {
+    padding-left: 30px;
+}
+
+.bargraphandinvestedcard {
+    display: flex;
+}
+
+.investedcard {
+    width: 30%;
+    height: 55%;
+    background: #212121;
+    border-radius: 13px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.investedcard h2 {
+    color: #7E7E7E;
+}
+
+.investedcard h1 {
+    font-size: 2.8rem;
+}
+
+@media (max-width: 1632px) {
+    .bargraph {
+        display: none;
+    }
+    .investedcard {
+        width: 35%;
+    }
+}
+
+.portfoliobottomlist {
+    flex-direction: column;
+}
+
+.upperandbottom {
+    width: 100%;
+}

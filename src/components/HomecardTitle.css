@@ -6,11 +6,16 @@
     border-radius: 1rem;
     margin-top: 18px;
     position: relative;
-    width: 95%;
+    width: 100%;
+}
+
+.empty h6 {
+    padding: 0;
+    margin: 0;
 }
 
 .title {
-    margin-left: 5%;
+    margin-left: 50%;
     background-color: black;
     margin-top: 12px;
 }
@@ -22,7 +27,7 @@
     color: white;
     background-color: black;
     position: relative;
-    left: 3%;
+    left: 3.2%;
 }
 
 .titleChange {
@@ -31,13 +36,14 @@
     background-color: black;
     position: relative;
     /* margin-left: 2%; */
-    left: 4%;
+    left: 5%;
 }
 
 .titleMarketCap {
     font-size: large;
     color: white;
     background-color: black;
+    margin-left: 5%;
 }
 
 .titlePrice {

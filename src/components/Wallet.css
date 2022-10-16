@@ -97,20 +97,27 @@ h3 {
 
 @media (max-width: 1485px) {
     .balancebox {
-        width: 460px;
+        width: 406px;
         height: 180px;
     }
+    .balancebox h2 {
+        padding: 10px;
+    }
+    .balancebox h1 {
+        padding: 0px;
+    }
     .enteramount input {
-        width: 460px;
+        width: 406px;
     }
     .withdrawaddamount button {
-        width: 230px;
+        width: 203px;
+        height: 100px;
     }
     .addamountbutton button {
-        width: 230px;
+        width: 203px;
     }
     table {
-        width: 80%;
+        width: 70%;
     }
     .walletaddressline {
         width: 100%;

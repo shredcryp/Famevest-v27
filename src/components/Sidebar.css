@@ -49,8 +49,7 @@ p {
 }
 
 #sidebar {
-    min-width: 171px;
-    max-width: 100px;
+    width: 200px;
     background: black;
     color: #fff;
     transition: all 0.3s;

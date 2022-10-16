@@ -20,7 +20,7 @@
 
 .marketinfo {
     width: 100%;
-    height: 11.5%;
+    height: 10%;
     background: #212121;
     border-radius: 14px;
     display: flex;
@@ -231,5 +231,6 @@
     }
     .marketinfo {
         margin-bottom: 20px;
+        height: 14%;
     }
 }

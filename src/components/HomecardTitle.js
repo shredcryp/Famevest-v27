@@ -10,7 +10,7 @@ function HomecardTitle() {
         <div className="title-body">
 
         <div className='empty'>
-             
+             <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
           </div>
 
           <div className='titleCoin'>

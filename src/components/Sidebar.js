@@ -22,7 +22,7 @@ function Sidebar() {
             <ul className="list-unstyled components">
          
                 <li >
-                    <a href="/userprofile" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><PersonIcon style={{fontSize:"2.5rem"}}/> Profile</a>
+                    <a href="/myprofile" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><PersonIcon style={{fontSize:"2.5rem"}}/> Profile</a>
                 </li>
                 <li>
                     <a href="/wallet" style={{textDecoration:"none",color:"white",display:"flex", alignItems:"center", fontSize:"2rem"}}><AccountBalanceWalletRoundedIcon style={{fontSize:"2.5rem"}}/> Wallet </a>

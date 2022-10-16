@@ -25,7 +25,7 @@ function HomeCard() {
                   Entrepreneur
                 </div>
               </div>
-              <div className='cardChange'>
+              <div className='cardChange'style={{color: "#42B72A"}}>
                 +12.4
               </div>
 
