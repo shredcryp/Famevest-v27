@@ -1,0 +1,55 @@
+.loginpart {
+    width: 100%;
+}
+
+.loginbox {
+    width: 35%;
+    height: 85%;
+    background: #212121;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.email {
+    width: 90%;
+    height: 15%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.password {
+    width: 90%;
+    height: 15%;
+    font-size: 1.5rem;
+}
+
+.permission {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+button {
+    width: 130px;
+    height: 60px;
+    background: #2c87f0;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.forgotpass {
+    float: left;
+    margin-left: 6%;
+}
+
+.signupoption {
+    width: 100%;
+    text-align: center;
+    float: left;
+}

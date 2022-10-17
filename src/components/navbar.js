@@ -24,7 +24,7 @@ function Navbar() {
     <a href="" target="_blank">Features</a>
     <a href="" target="_blank">Trends</a>
     <a href="" target="_blank">Settings</a>
-    <button className="loginbutton">Login</button>
+    <button className="loginbutton"><a href="/login">Login</a></button>
   </div>
 </div>
     </>
