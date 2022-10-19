@@ -45,9 +45,7 @@ function Profile() {
             </div>
           </div>
           <div className="graphinputs"></div>
-          <div className="maingraph">
-            <img src={maingraph} />
-          </div>
+
           <div className="buysell">
 
             <div className="buyinput">
@@ -81,6 +79,9 @@ function Profile() {
               </div>
             </div>
           </div>
+          <div className="maingraph">
+              <img src={maingraph} />
+            </div>
         </div>
       </div>
     </>

@@ -22,7 +22,7 @@ function Login() {
                         <a href="#">Forgot password</a>
                     </div>
                     <div className="signupoption">
-                        <h3>Don't have an account?<a href="/signup" style={{color: "#2c87f0"}}>Sign up</a></h3>
+                        <h3>Don't have an account? <a href="/signup" style={{color: "#2c87f0"}}>Sign up</a></h3>
                     </div>
                 </div>
             </div>
