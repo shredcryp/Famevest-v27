@@ -15,7 +15,7 @@ function HomeCard() {
             <div className="card-body">
 
               <div className='cardProfile'>
-                <img src={elonprofile} alt="" />
+                <img src={elonprofile} alt="" style={{width: "115px", height: "115px"}}/>
               </div>
 
               <div className='cardCoin'>

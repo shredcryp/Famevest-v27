@@ -27,7 +27,7 @@
     color: white;
     background-color: black;
     position: relative;
-    left: 3.2%;
+    left: 6%;
 }
 
 .titleChange {
@@ -35,8 +35,7 @@
     color: white;
     background-color: black;
     position: relative;
-    /* margin-left: 2%; */
-    left: 5%;
+    left: 9%;
 }
 
 .titleMarketCap {
@@ -58,6 +57,18 @@
     background-color: black;
 }
 
+@media (max-width: 1650px) {
+    .titleCoin {
+        left: 8%;
+    }
+}
+
+@media (max-width: 1317px) {
+    .titleCoin {
+        left: 5%;
+    }
+}
+
 @media (max-width: 1525px) {
     .titlegraph {
         display: none;
@@ -76,6 +87,6 @@
     }
     .titlePrice {
         position: relative;
-        right: 6%;
+        left: 3%;
     }
 }
