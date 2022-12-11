@@ -25,11 +25,12 @@
 }
 
 .enteramount input {
-    width: 650px;
+    width: 35rem;
     height: 70px;
     background: #212121;
     font-size: 1.5rem;
     border-radius: 7px;
+    color: white;
 }
 
 .withdrawaddamount {
@@ -95,6 +96,22 @@ h3 {
     width: 80%;
 }
 
+.currencyselector {
+    margin-top: 10px;
+    height: 60px;
+    width: 75px;
+    font-size: 1.4rem;
+}
+
+.enteramountcurrencyselector {
+    display: flex;
+    align-items: center;
+}
+
+option {
+    color: black;
+}
+
 @media (max-width: 1485px) {
     .balancebox {
         width: 406px;
@@ -105,9 +122,10 @@ h3 {
     }
     .balancebox h1 {
         padding: 0px;
+        font-size: 2rem;
     }
     .enteramount input {
-        width: 406px;
+        width: 325px;
     }
     .withdrawaddamount button {
         width: 203px;

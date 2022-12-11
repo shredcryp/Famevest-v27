@@ -72,6 +72,7 @@ p {
 
 #sidebar ul li a {
     padding: 10px;
+    padding-top: 25px;
     font-size: 3rem;
     display: block;
 }
