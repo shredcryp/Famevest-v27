@@ -19,6 +19,7 @@ const isNotEmpty = (arr) => {
 
 loginRouter.post("/", async (req, res) => {
   let { email, password } = await req.body;
+  console.log("This is what was received from the frontend", email);
   let _token;
 
   login.find({ email: req.body.email }, async (err, data) => {
@@ -32,6 +33,7 @@ loginRouter.post("/", async (req, res) => {
 
     if (data.length == 0) {
       console.log("This ran");
+      console.log(data, "This is the data");
       return res.json({
         status: "Not Ok",
         error: "The user is not found. Please Sign Up",

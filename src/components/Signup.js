@@ -1,18 +1,91 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Signup.css";
-import homeimage from "../images/homeimage.png";
+// import homeimage from "../images/homeimage.png";
+import { useMutation } from "react-query";
+import { useNavigate } from "react-router";
 
 function Signup() {
+  // let nav = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+
+  const mutation = useMutation(async (string, obj) => {
+    console.log("Is it even mutating");
+    let data = await fetch(`http://localhost:3001/${string}`, {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        password: password,
+      }),
+    });
+    console.log("Is the repsonse even returned");
+    let res = await data.json();
+    console.log("Is the repsonse even returned 2");
+    console.log(res);
+    console.log("Now the cookie is going to be assigned");
+    document.cookie = `jwt=${res.token};max-age=18000;`;
+    if (res.error) {
+      console.log("This is the error", res.error);
+      alert(res.error);
+    } else {
+      console.log(res.Connection);
+      console.log();
+      alert("The user has been logged in successfully");
+      // nav("/");
+    }
+  });
+
+  function signupsubmitted(e) {
+    e.preventDefault();
+    let obj = {
+      email,
+      password,
+    };
+    console.log(obj);
+    mutation.mutateAsync("api/signup", obj);
+  }
   return (
     <>
       <div className="loginpart">
         <div className="loginbox">
+          <label>Username</label>
+          <input
+            className="email"
+            type="text"
+            placeholder="Username"
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
           <label>Email</label>
-          <input className="email" type="text" placeholder="Email" />
+          <input
+            className="email"
+            type="text"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
+          />
           <br />
           <br />
-          <label>Email</label>
-          <input className="password" type="text" placeholder="Password" />
+          <label>Password</label>
+          <input
+            className="password"
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => {
+              setPassword(e.target.value);
+            }}
+          />
+
           <br />
           <div className="permission">
             <input type="checkbox" style={{ width: "20px", height: "20px" }} />
@@ -24,7 +97,13 @@ function Signup() {
               </a>
             </h4>
           </div>
-          <button>Sign Up</button>
+          <button
+            onClick={(e) => {
+              signupsubmitted(e);
+            }}
+          >
+            Sign Up
+          </button>
           <br />
           <br />
           <div className="forgotpass">

@@ -13,6 +13,8 @@ creatorrouter.post("/", async (req, res) => {
   let { fcoins } = req.body;
   fcoins = parseFloat(fcoins);
 
+  console.log(fcoins, "These are the fcoins from the frontend");
+
   //Before calling this function we first need to find the values of the CFI AND CCCC from the database
   let result = await CreatorSchema.find({ name: "EMC" });
   // console.log("This is the result", result[0]);

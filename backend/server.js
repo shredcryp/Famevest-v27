@@ -23,5 +23,5 @@ const app = require("./app");
 server.use(app);
 
 server.listen(process.env.PORT, () => {
-  console.log("The server is listening");
+  console.log(`The server is listening on port ${process.env.PORT}` );
 });

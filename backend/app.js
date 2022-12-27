@@ -10,7 +10,7 @@ const decreaserouter = require("./views/decreasefcoins");
 const updaterouter = require("./views/updatevalues");
 const creatorrouter2 = require("./views/buycreatorcoins2");
 const increaserouter = require("./views/increasefcoins");
-
+// const paymentrouter = require("./stripe");
 app.use(cors());
 
 app.use("/api/login", loginrouter);
@@ -22,4 +22,10 @@ app.use("/decreasefcoins", decreaserouter);
 app.use("/updatevalues", updaterouter);
 app.use("/creatorcoins2", creatorrouter2);
 app.use("/increasefcoins", increaserouter);
+
+app.get("/", async (req, res) => {
+  res.send("Hello world 2");
+});
+
+// app.use("/paymentrouter", paymentrouter);
 module.exports = app;

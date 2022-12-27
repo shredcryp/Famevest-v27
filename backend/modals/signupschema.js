@@ -17,9 +17,11 @@ const SignpSchema = new mongoose.Schema({
   },
   fcoins: {
     type: Number,
+    default: 500,
   },
   creatorcoins: {
     type: Number,
+    default: 0,
   },
 });
 

@@ -42,7 +42,7 @@ signup.post("/", async (req, res) => {
 
     await signUp
       .create({
-        name:req.body.name,
+        username: req.body.name,
         email: req.body.email,
         password: hashedpassword,
       })
@@ -66,8 +66,9 @@ signup.post("/", async (req, res) => {
       })
       .catch((err) => {
         console.log("An error is detected");
-        let str = handlingerror(err);
-        console.log(str);
+        console.log(err);
+        // let str = handlingerror(err);
+        // console.log(str);
         res.status(404).json({
           error: err,
           status: "Not ok",
